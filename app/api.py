@@ -18,7 +18,7 @@ posts = [
 users = []
 
 
-app = FastAPI()
+app = FastAPI(title="FastAPI-JWT-basic", openapi_url="/openapi.json")
 
 @app.get("/", tags=["root"])
 async def read_root() -> dict:
