@@ -1,0 +1,25 @@
+.idea
+.ipynb_checkpoints
+.mypy_cache
+.vscode
+.env
+__pycache__
+.pytest_cache
+htmlcov
+dist
+site
+.coverage
+coverage.xml
+.netlify
+*.db
+log.txt
+env3.*
+env
+docs_build
+venv
+docs.zip
+archive.zip
+
+# vim temporary files
+*~
+.*.sw?
